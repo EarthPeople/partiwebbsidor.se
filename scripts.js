@@ -2,9 +2,9 @@
 var plugins = {};
 
 var getPluginInfoBySlug = function(slug, callback) {
-	
+
 	$.ajax({
-		url: "http://api.wordpress.org/plugins/info/1.0/" + slug +".jsonp=?",
+		url: "https://api.wordpress.org/plugins/info/1.0/" + slug +".jsonp=?",
 		jsonp: "callback",
 		dataType: "jsonp",
 		cache: true,
@@ -59,7 +59,7 @@ var onLoadJSON = function(d) {
 	*/
 
 	// Leta plugins som används på fler än en sajt
-	Object.keys(plugins.plugins).forEach(function(pluginName) { 
+	Object.keys(plugins.plugins).forEach(function(pluginName) {
 
 	  if ( typeof plugins.plugins[pluginName].count == "undefined" ) {
 	    plugins.plugins[pluginName].count = 0;
@@ -86,7 +86,7 @@ var onLoadJSON = function(d) {
 	// Kan inte sortera object så gör array av det istället och sortera den
 	plugins.pluginsAsArray = [];
 	Object.keys(plugins.plugins).forEach(function(pluginName) {
-		
+
 		plugins.pluginsAsArray.push( plugins.plugins[pluginName] );
 
 	});
@@ -95,10 +95,10 @@ var onLoadJSON = function(d) {
 	plugins.pluginsAsArray.sort( function(a, b) {
 		return b.count - a.count;
 	} );
-	
+
 	// Hämta alla plugins som finns på fler än 1 sajt
 	plugins.pluginsMany = plugins.pluginsAsArray.filter(function(plugin) {
-		return plugin.count > 1; 
+		return plugin.count > 1;
 	});
 
 	// Sortera plugins alfabetiskt
@@ -107,7 +107,7 @@ var onLoadJSON = function(d) {
 	} );
 
 	// Sortera partierna alfabetiskt
-	plugins.partys.sort(function(a, b) { 
+	plugins.partys.sort(function(a, b) {
 		return a.party.localeCompare(b.party);
 	});
 
@@ -147,10 +147,10 @@ var onLoadJSON = function(d) {
 		var pagespeedURLMobile = "https://developers.google.com/speed/pagespeed/insights/?tab=mobile&url=" + party.url;
 		var pagespeedURLDesktop = "https://developers.google.com/speed/pagespeed/insights/?tab=desktop&url=" + party.url;
 
-		html += '' + 
+		html += '' +
 			'<tr>' +
 				'<th scope="row" class="party-name">' +
-					'<i class="logga ' + party.icon + '"></i> ' + 
+					'<i class="logga ' + party.icon + '"></i> ' +
 					'<a href="' + party.url + '">' + party.party + '</a></td>' +
 				'<td class="feature-cms">' + party.features.cms + '</td>' +
 				'<td class="feature-server">' + party.features.server + '</td>' +
@@ -179,13 +179,13 @@ var onLoadJSON = function(d) {
 	html += "<table class='table table-hover table-plugins-popular'>";
 	html += "<tr><th>Antal sajter</th><th>Plugin</th><th>Beskrivning</th></tr>";
 	plugins.pluginsMany.forEach(function(plugin) {
-		
+
 		html += "<tr>";
-		
+
 		html += "<td>";
 		html += plugin.count;
 		html += "</td>";
-		
+
 		html += "<td>";
 		html += plugin.name;
 		html += "</td>";
@@ -223,11 +223,11 @@ var onLoadJSON = function(d) {
 		party.plugins.forEach(function(plugin) {
 
 			html += "<tr>";
-			
+
 			html += "<td>";
 			html += plugin;
 			html += "</td>";
-			
+
 			html += "<td>";
 			html += "<div data-plugin-name='" + plugin + "'></div>";
 			html += "</td>";
@@ -283,5 +283,5 @@ $(function() {
 	setTimeout(function() {
 		$('.sticky').Stickyfill();
 	}, 1000);
-	
+
 });
