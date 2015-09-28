@@ -117,13 +117,13 @@ var onLoadJSON = function(d) {
 	html += '<table class="table table-hover">';
 	html += '<thead>' +
 				'<tr>' +
-					'<th scope="col">Parti/Webbplats</th>' +
-					'<th>CMS</th>' +
-					'<th>Server</th>' +
-					'<th>SSL</th>' +
-					'<th>Cookies</th>' +
-					'<th>PageSpeed mobile</th>' +
-					'<th>PageSpeed desktop</th>' +
+					'<th data-sort="string" scope="col">Parti/Webbplats</th>' +
+					'<th data-sort="string">CMS</th>' +
+					'<th data-sort="string">Server</th>' +
+					'<th data-sort="string">SSL</th>' +
+					'<th data-sort="string">Cookies</th>' +
+					'<th data-sort="int">PageSpeed mobile</th>' +
+					'<th data-sort="int">PageSpeed desktop</th>' +
 				'</tr>' +
 			'</thead>' +
 			'<tbody>';
@@ -267,6 +267,9 @@ var onLoadJSON = function(d) {
 
 		});
 	});
+
+	// Make tables sortable
+	$("table").stupidtable();
 
 };
 

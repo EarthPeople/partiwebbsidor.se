@@ -139,3 +139,6 @@ th.party-name {
 	text-align: center;
 }
 
+th[data-sort] {
+    cursor: pointer;
+}
