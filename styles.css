@@ -101,7 +101,8 @@ body {
 	padding: 0.2em 0.4em;*/
 }
 
-th.party-name {
+th.party-name,
+td.feature-cms {
 	white-space: nowrap;
 }
 

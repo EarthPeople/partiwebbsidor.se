@@ -13,16 +13,16 @@
 				"https": "yes"
 			},
 			"plugins": [
+				"Advanced Access Manager",
 				"Advanced Custom Fields",
 				"Contact Form 7",
+				"Custom Contact Forms",
 				"Disqus Comment System",
 				"Image Widget",
-				"W3 Total Cache",
-				"Yoast SEO",
 				"Password Protected",
 				"Print Friendly and PDF Button",
-				"Advanced Access Manager",
-				"Custom Contact Forms"
+				"W3 Total Cache",
+				"Yoast SEO"
 			]
 		},
 		{
@@ -52,14 +52,14 @@
 				"Members",
 				"nginx-helper",
 				"Outh twitter feed for developers",
-				"php-code-widget",
+				"PHP Code Widget",
 				"Polldaddy",
 				"Redirection",
 				"Regenerate Thumbnails",
 				"Rename wp login",
 				"Revslider",
 				"Share this",
-				"Smart youtube",
+				"Smart YouTube Pro",
 				"Social",
 				"Special recent posts",
 				"The Events Calendar",
@@ -114,7 +114,7 @@
 				"Contact Form 7",
 				"Cookie Notice",
 				"Disable Comments",
-				"Form",
+				"Enhanced Media Library",
 				"Really Simple CAPTCHA",
 				"Social",
 				"SVG Support",
@@ -157,7 +157,7 @@
 				"Contact Form 7",
 				"Custom sidebars",
 				"Jetpack by WordPress.com",
-				"list category posts",
+				"List Category Posts",
 				"Media file renamer",
 				"Meta Slider",
 				"Page Builder by SiteOrigin",
@@ -394,7 +394,7 @@
 			"slug": "so-widgets-bundle",
 			"url": ""
 		},
-		"Smart youtube": {
+		"Smart YouTube Pro": {
 			"slug": "smart-youtube",
 			"url": ""
 		},
@@ -454,7 +454,7 @@
 			"slug": "bwp-google-xml-sitemaps",
 			"url": ""
 		},
-		"list category posts": {
+		"List Category Posts": {
 			"slug": "list-category-posts",
 			"url": ""
 		},
@@ -462,7 +462,7 @@
 			"slug": "nginx-helper",
 			"url": ""
 		},
-		"php-code-widget": {
+		"PHP Code Widget": {
 			"slug": "php-code-widget",
 			"url": ""
 		},
@@ -493,6 +493,9 @@
 		"Custom Contact Forms": {
 			"slug": "custom-contact-forms",
 			"url": ""
+		},
+		"Enhanced Media Library": {
+			"slug": "enhanced-media-library"
 		}
 	}
 }
