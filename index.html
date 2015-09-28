@@ -32,7 +32,7 @@
 			<div class="col-md-8 col-hey-second">
 
 				<p>Jo, det är vi på <a href="https://earthpeople.se/">webbyrån Earth People</a> som har testat de tio största svenska partiernas webbplatser.</p>
-				
+
 				<p>Sex av tio partiers webbplatser använder WordPress, så vi har lagt lite extra krut på detta och tagit reda på både vilken version de använder samt vilka plugins som används.</p>
 
 				<p>Den tekniska datan om webbplatserna har vi samlat i en JSON-fil: <a href="partier.json">partier.json</a>. Alla tabeller här på sidan skrivs automatiskt ut baserat på informationen i denna JSON.</p>
@@ -67,15 +67,15 @@
 				 <!-- <p>Det är kul att så många partier fått upp ögonen för Open Source och WordPress!</p> -->
 
 				<div class="panel panel-default">
-					
+
 					<!-- <div class="panel-heading">Servertekniker hos de testade partisajterna</div> -->
 					<!-- <div class="panel-body"></div> -->
 
 					<div class="table-responsive">
 
 						<!-- <caption>Tabellen visar de politiska partierna och deras publiceringssystem och annan intressant serverteknik.</caption> -->
-						
-						<div id="partier-serverteknik"></div>					
+
+                                                <div id="partier-serverteknik"></div>
 
 					</div>
 
@@ -102,7 +102,7 @@
 				<h2>Kommentar kring HTTPS</h2>
 
 					<p>Krypterad HTTPS som standard har endast tre av partierna: Centerpartiet, Kristdemokraterna, och Sverigedemokraterna.</p>
-					
+
 					<p>Det betyder att sju av partierna, dvs. majoriteten, använder sig av icke-krypterad HTTP. Dessa är Socialdemokraterna, Moderaterna, Miljöpartiet, Folkpartiet, Feministiskt Initiativ, Vänsterpartiet och Piratpartiet.</p>
 
 					<p>Värt att notera att Piratpartiet som säger sig värna om integriteten inte har HTTPS som standard på sin webbplats, något man spontant kanske kunde ha förväntat sig.</p>
@@ -112,7 +112,7 @@
 
 
 				<h2>Så här gjorde vi</h2>
-	
+
 					<p>(Det så kallade <em>tekniska tillvägagångssättet.</em>)</p>
 
 					<p>För att ta reda på vilka CMS respektive partiwebbsajt använde sig av så gick vi manuellt igenom sajterna. Med ögonen, webbläsaren och terminalen.</p>
@@ -138,6 +138,7 @@
 
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfill/1.1.2/stickyfill.min.js"></script>
+        <script src="https://cdn.rawgit.com/joequery/Stupid-Table-Plugin/master/stupidtable.min.js"></script>
 	<script src="scripts.js"></script>
 	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
 	<script>
