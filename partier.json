@@ -1,0 +1,498 @@
+{
+	"partys": [
+		{
+			"party": "Centerpartiet",
+			"icon": "centerpartiet",
+			"url": "https://www.centerpartiet.se",
+			"features": {
+				"cms": "WordPress 4.0",
+				"server": "Apache",
+				"cookies": "no",
+				"insights_mobile": 50,
+				"insights_desktop": 55,
+				"https": "yes"
+			},
+			"plugins": [
+				"Advanced Custom Fields",
+				"Contact Form 7",
+				"Disqus Comment System",
+				"Image Widget",
+				"W3 Total Cache",
+				"Yoast SEO",
+				"Password Protected",
+				"Print Friendly and PDF Button",
+				"Advanced Access Manager",
+				"Custom Contact Forms"
+			]
+		},
+		{
+			"party": "Sverigedemokraterna",
+			"icon": "sverigedemokraterna",
+			"url": "https://sd.se",
+			"features": {
+				"cms": "WordPress 4.3",
+				"server": "cloudflare-nginx",
+				"cookies": "yes",
+				"insights_mobile": 66,
+				"insights_desktop": 78,
+				"https": "yes"
+			},
+			"plugins": [
+				"Admin menu editor",
+				"Automatic youtube video posts",
+				"Breadcrumb NavXT",
+				"Cloudflare",
+				"Contact Form 7 honeypot",
+				"Contact Form 7",
+				"Contact Form DB",
+				"Disable xml-rpc",
+				"Flexi pages widget",
+				"Floating social bar",
+				"Image Widget",
+				"Members",
+				"nginx-helper",
+				"Outh twitter feed for developers",
+				"php-code-widget",
+				"Polldaddy",
+				"Redirection",
+				"Regenerate Thumbnails",
+				"Rename wp login",
+				"Revslider",
+				"Share this",
+				"Smart youtube",
+				"Social",
+				"Special recent posts",
+				"The Events Calendar",
+				"User photo",
+				"W3 Total Cache",
+				"wp piwik",
+				"wp to twitter",
+				"Yoast SEO"
+			]
+		},
+		{
+			"party": "Vänsterpartiet",
+			"icon": "vansterpartiet",
+			"url": "http://www.vansterpartiet.se",
+			"features": {
+				"cms": "WordPress 4.3.1",
+				"server": "cloudflare-nginx",
+				"cookies": "yes",
+				"insights_mobile": 46,
+				"insights_desktop": 50,
+				"https": "no"
+			},
+			"plugins": [
+				"Akismet",
+				"Black Studio TinyMCE Widget",
+				"Cloudflare",
+				"Gravity Forms",
+				"Image Widget",
+				"Jetpack by WordPress.com",
+				"Shortcodes Ultimate",
+				"Simple 301 redirects",
+				"TinyMCE Advanced",
+				"Vaultpress",
+				"W3 Total Cache"
+			]
+		},
+		{
+			"party": "Folkpartiet",
+			"icon": "folkpartiet",
+			"url": "http://www.folkpartiet.se",
+			"features": {
+				"cms": "WordPress 4.3.1",
+				"server": "Apache/2.4.7",
+				"cookies": "no",
+				"insights_mobile": 37,
+				"insights_desktop": 42,
+				"https": "no"
+			},
+			"plugins": [
+				"Advanced Custom Fields",
+				"Broken Link Checker",
+				"Contact Form 7",
+				"Cookie Notice",
+				"Disable Comments",
+				"Form",
+				"Really Simple CAPTCHA",
+				"Social",
+				"SVG Support",
+				"WP Google Maps",
+				"wp google search"
+			]
+		},
+		{
+			"party": "Feministiskt initiativ",
+			"icon": "fi",
+			"url": "http://feministisktinitiativ.se",
+			"features": {
+				"cms": "WordPress 4.2.3",
+				"server": "cloudflare-nginx",
+				"cookies": "yes",
+				"insights_mobile": 90,
+				"insights_desktop": 96,
+				"https": "no"
+			},
+			"plugins": [
+				"Better WordPress Google XML Sitemaps",
+				"Ninja forms",
+				"WordFence"
+			]
+		},
+		{
+			"party": "Piratpartiet",
+			"icon": "piratpartiet",
+			"url": "http://www.piratpartiet.se",
+			"features": {
+				"cms": "WordPress 4.3.1",
+				"server": "Nginx",
+				"cookies": "no",
+				"insights_mobile": 45,
+				"insights_desktop": 54,
+				"https": "no"
+			},
+			"plugins": [
+				"Black Studio TinyMCE Widget",
+				"Contact Form 7",
+				"Custom sidebars",
+				"Jetpack by WordPress.com",
+				"list category posts",
+				"Media file renamer",
+				"Meta Slider",
+				"Page Builder by SiteOrigin",
+				"Quick Page/Post Redirect Plugin",
+				"Regenerate Thumbnails",
+				"Search everything",
+				"Simple image sizes",
+				"SiteOrigin Widgets Bundle",
+				"Spider faq",
+				"WP power stats",
+				"WP Super Cache",
+				"Yoast SEO"
+			]
+		},
+		{
+			"party": "Kristdemokraterna",
+			"icon": "kristdemokraterna",
+			"url": "https://www.kristdemokraterna.se",
+			"features": {
+				"cms": "EpiServer CMS 6",
+				"server": "Microsoft-IIS/7.5",
+				"cookies": "yes",
+				"insights_mobile": 42,
+				"insights_desktop": 60,
+				"https": "yes"
+			}
+		},
+		{
+			"party": "Socialdemokraterna",
+			"icon": "socialdemokraterna",
+			"url": "http://www.socialdemokraterna.se",
+			"features": {
+				"cms": "EpiServer CMS 6",
+				"server": "Microsoft-IIS/7.5",
+				"cookies": "yes",
+				"insights_mobile": 55,
+				"insights_desktop": 66,
+				"https": "no"
+			}
+		},
+		{
+			"party": "Miljöpartiet",
+			"icon": "miljopartiet",
+			"url": "http://www.mp.se",
+			"features": {
+				"cms": "Drupal 7",
+				"server": "Apache/2.4.7 + Varnish",
+				"cookies": "no",
+				"insights_mobile": 65,
+				"insights_desktop": 84,
+				"https": "no"
+			}
+		},
+		{
+			"party": "Moderaterna",
+			"icon": "moderaterna",
+			"url": "http://www.moderat.se",
+			"features": {
+				"cms": "Drupal 7",
+				"server": "Apache + Varnish",
+				"cookies": "no",
+				"insights_mobile": 52,
+				"insights_desktop": 52,
+				"https": "no"
+			}
+		}
+	],
+	"plugins": {
+		"Admin menu editor": {
+			"slug": "Admin-menu-editor",
+			"url": ""
+		},
+		"Advanced Custom Fields": {
+			"slug": "Advanced-Custom-Fields",
+			"url": ""
+		},
+		"Akismet": {
+			"slug": "akismet",
+			"url": ""
+		},
+		"Automatic youtube video posts": {
+			"slug": "automatic-youtube-video-posts",
+			"url": ""
+		},
+		"Black Studio TinyMCE Widget": {
+			"slug": "black-studio-tinymce-widget",
+			"url": ""
+		},
+		"Breadcrumb NavXT": {
+			"slug": "breadcrumb-navxt",
+			"url": ""
+		},
+		"Broken Link Checker": {
+			"slug": "broken-link-checker",
+			"url": ""
+		},
+		"Cloudflare": {
+			"slug": "cloudflare",
+			"url": ""
+		},
+		"Contact Form 7": {
+			"slug": "contact-form-7",
+			"url": ""
+		},
+		"Contact Form 7 honeypot": {
+			"slug": "contact-form-7-honeypot",
+			"url": ""
+		},
+		"Contact Form DB": {
+			"slug": "contact-form-7-to-database-extension",
+			"url": ""
+		},
+		"Cookie Notice": {
+			"slug": "cookie-notice",
+			"url": ""
+		},
+		"Custom sidebars": {
+			"slug": "custom-sidebars",
+			"url": ""
+		},
+		"Disable Comments": {
+			"slug": "disable-comments",
+			"url": ""
+		},
+		"Disable xml-rpc": {
+			"slug": "disable-xml-rpc",
+			"url": ""
+		},
+		"Disqus Comment System": {
+			"slug": "disqus-comment-system",
+			"url": ""
+		},
+		"Flexi pages widget": {
+			"slug": "flexi-pages-widget",
+			"url": ""
+		},
+		"Floating social bar": {
+			"slug": "floating-social-bar",
+			"url": ""
+		},
+		"Form": {
+			"slug": "form",
+			"url": ""
+		},
+		"Gravity Forms": {
+			"slug": "gravity-forms",
+			"url": ""
+		},
+		"Image Widget": {
+			"slug": "image-widget",
+			"url": ""
+		},
+		"Jetpack by WordPress.com": {
+			"slug": "jetpack",
+			"url": ""
+		},
+		"Media file renamer": {
+			"slug": "media-file-renamer",
+			"url": ""
+		},
+		"Members": {
+			"slug": "members",
+			"url": ""
+		},
+		"Meta Slider": {
+			"slug": "ml-slider",
+			"url": ""
+		},
+		"Ninja forms": {
+			"slug": "ninja-forms",
+			"url": ""
+		},
+		"Outh twitter feed for developers": {
+			"slug": "oauth-twitter-feed-for-developers",
+			"url": ""
+		},
+		"Page Builder by SiteOrigin": {
+			"slug": "siteorigin-panels",
+			"url": ""
+		},
+		"Polldaddy": {
+			"slug": "polldaddy",
+			"url": ""
+		},
+		"Quick Page/Post Redirect Plugin": {
+			"slug": "quick-pagepost-redirect-plugin",
+			"url": ""
+		},
+		"Really Simple CAPTCHA": {
+			"slug": "really-simple-captcha",
+			"url": ""
+		},
+		"Redirection": {
+			"slug": "redirection",
+			"url": ""
+		},
+		"Regenerate Thumbnails": {
+			"slug": "regenerate-thumbnails",
+			"url": ""
+		},
+		"Rename wp login": {
+			"slug": "rename-wp-login",
+			"url": ""
+		},
+		"Revslider": {
+			"slug": "",
+			"url": ""
+		},
+		"SVG Support": {
+			"slug": "svg-support",
+			"url": ""
+		},
+		"Search everything": {
+			"slug": "search-everything",
+			"url": ""
+		},
+		"Share this": {
+			"slug": "share-this",
+			"url": ""
+		},
+		"Shortcodes Ultimate": {
+			"slug": "shortcodes-ultimate",
+			"url": ""
+		},
+		"Simple 301 redirects": {
+			"slug": "simple-301-redirects",
+			"url": ""
+		},
+		"Simple image sizes": {
+			"slug": "simple-image-sizes",
+			"url": ""
+		},
+		"SiteOrigin Widgets Bundle": {
+			"slug": "so-widgets-bundle",
+			"url": ""
+		},
+		"Smart youtube": {
+			"slug": "smart-youtube",
+			"url": ""
+		},
+		"Social": {
+			"slug": "social",
+			"url": ""
+		},
+		"Special recent posts": {
+			"slug": "special-recent-posts",
+			"url": ""
+		},
+		"Spider faq": {
+			"slug": "spider-faq",
+			"url": ""
+		},
+		"The Events Calendar": {
+			"slug": "the-events-calendar",
+			"url": ""
+		},
+		"TinyMCE Advanced": {
+			"slug": "tinymce-advanced",
+			"url": ""
+		},
+		"User photo": {
+			"slug": "User-photo",
+			"url": ""
+		},
+		"Vaultpress": {
+			"slug": "vaultpress",
+			"url": ""
+		},
+		"W3 Total Cache": {
+			"slug": "w3-total-cache",
+			"url": ""
+		},
+		"WP Google Maps": {
+			"slug": "WP-Google-Maps",
+			"url": ""
+		},
+		"WP Super Cache": {
+			"slug": "WP-Super-Cache",
+			"url": ""
+		},
+		"WP power stats": {
+			"slug": "WP-power-stats",
+			"url": ""
+		},
+		"WordFence": {
+			"slug": "wordfence",
+			"url": ""
+		},
+		"Yoast SEO": {
+			"slug": "wordpress-seo",
+			"url": ""
+		},
+		"Better WordPress Google XML Sitemaps": {
+			"slug": "bwp-google-xml-sitemaps",
+			"url": ""
+		},
+		"list category posts": {
+			"slug": "list-category-posts",
+			"url": ""
+		},
+		"nginx-helper": {
+			"slug": "nginx-helper",
+			"url": ""
+		},
+		"php-code-widget": {
+			"slug": "php-code-widget",
+			"url": ""
+		},
+		"wp google search": {
+			"slug": "wp-google-search",
+			"url": ""
+		},
+		"wp piwik": {
+			"slug": "wp-piwik",
+			"url": ""
+		},
+		"wp to twitter": {
+			"slug": "wp-to-twitter",
+			"url": ""
+		},
+		"Password Protected": {
+			"slug": "password-protected",
+			"url": ""
+		},
+		"Print Friendly and PDF Button": {
+			"slug": "printfriendly",
+			"url": ""
+		},
+		"Advanced Access Manager": {
+			"slug": "advanced-access-manager",
+			"url": ""
+		},
+		"Custom Contact Forms": {
+			"slug": "custom-contact-forms",
+			"url": ""
+		}
+	}
+}
