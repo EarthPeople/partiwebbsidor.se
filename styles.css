@@ -59,9 +59,18 @@ body {
 	.row-hey .ep {
 		position: absolute;
 		top: 1.4em;
+		right: 10px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.row-hey .ep {
+		position: absolute;
+		top: 1.4em;
 		right: 75px;
 	}
 }
+
 
 .row-hey h2 span {
 	display: block;
