@@ -143,3 +143,12 @@ td.feature-cms {
 th[data-sort] {
     cursor: pointer;
 }
+
+.site-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 100px;
+    color: #767676;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
