@@ -173,6 +173,7 @@ th[data-sort] {
 .bs-callout h4 {
     margin-top: 0;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 .bs-callout p:last-child {
     margin-bottom: 0;
@@ -198,8 +199,10 @@ th[data-sort] {
 .bs-callout-success {
     border-left-color: #5cb85c;
 }
+
 .bs-callout-success h4 {
     color: #5cb85c;
+    background: rgba(92, 184, 92, 0.17);
 }
 .bs-callout-danger {
     border-left-color: #d9534f;
