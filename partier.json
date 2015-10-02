@@ -8,8 +8,8 @@
 				"cms": "WordPress 4.0",
 				"server": "Apache",
 				"cookies": "no",
-				"insights_mobile": 50,
-				"insights_desktop": 55,
+				"insights_mobile": 57,
+				"insights_desktop": 65,
 				"https": "yes"
 			},
 			"plugins": [
@@ -148,8 +148,8 @@
 				"cms": "WordPress 4.3.1",
 				"server": "Nginx",
 				"cookies": "no",
-				"insights_mobile": 45,
-				"insights_desktop": 54,
+				"insights_mobile": 46,
+				"insights_desktop": 55,
 				"https": "no"
 			},
 			"plugins": [
