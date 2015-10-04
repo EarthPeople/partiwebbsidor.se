@@ -12,6 +12,10 @@
 				"insights_desktop": 65,
 				"https": "yes"
 			},
+			"developer": {
+				"name": "Oh My!",
+				"url": "http://ohmy.nu/"
+			},
 			"plugins": [
 				"Advanced Access Manager",
 				"Advanced Custom Fields",
@@ -29,6 +33,10 @@
 			"party": "Sverigedemokraterna",
 			"icon": "sverigedemokraterna",
 			"url": "https://sd.se",
+			"developer": {
+				"name": "",
+				"url": ""
+			},
 			"features": {
 				"cms": "WordPress 4.3",
 				"server": "cloudflare-nginx",
@@ -74,6 +82,10 @@
 			"party": "Vänsterpartiet",
 			"icon": "vansterpartiet",
 			"url": "http://www.vansterpartiet.se",
+			"developer": {
+				"name": "Tommy Gabrielsson",
+				"url": ""
+			},
 			"features": {
 				"cms": "WordPress 4.3.1",
 				"server": "cloudflare-nginx",
@@ -100,6 +112,10 @@
 			"party": "Folkpartiet",
 			"icon": "folkpartiet",
 			"url": "http://www.folkpartiet.se",
+			"developer": {
+				"name": "Stormfors",
+				"url": "http://www.stormfors.se/"
+			},
 			"features": {
 				"cms": "WordPress 4.3.1",
 				"server": "Apache/2.4.7",
@@ -126,6 +142,10 @@
 			"party": "Feministiskt initiativ",
 			"icon": "fi",
 			"url": "http://feministisktinitiativ.se",
+			"developer": {
+				"name": "Anton Trollbäck, Maria Sjöberg, Maria Starck, Maria Söderberg, Maria Zerihoun, Therese Albertsson",
+				"url": ""
+			},
 			"features": {
 				"cms": "WordPress 4.2.3",
 				"server": "cloudflare-nginx",
@@ -144,6 +164,10 @@
 			"party": "Piratpartiet",
 			"icon": "piratpartiet",
 			"url": "http://www.piratpartiet.se",
+			"developer": {
+				"name": "Heléne Troedsson",
+				"url": ""
+			},
 			"features": {
 				"cms": "WordPress 4.3.1",
 				"server": "Nginx",
@@ -176,6 +200,10 @@
 			"party": "Kristdemokraterna",
 			"icon": "kristdemokraterna",
 			"url": "https://www.kristdemokraterna.se",
+			"developer": {
+				"name": "",
+				"url": ""
+			},
 			"features": {
 				"cms": "EpiServer CMS 6",
 				"server": "Microsoft-IIS/7.5",
@@ -189,6 +217,10 @@
 			"party": "Socialdemokraterna",
 			"icon": "socialdemokraterna",
 			"url": "http://www.socialdemokraterna.se",
+			"developer": {
+				"name": "",
+				"url": ""
+			},
 			"features": {
 				"cms": "EpiServer CMS 6",
 				"server": "Microsoft-IIS/7.5",
@@ -202,6 +234,10 @@
 			"party": "Miljöpartiet",
 			"icon": "miljopartiet",
 			"url": "http://www.mp.se",
+			"developer": {
+				"name": "Oktavilla",
+				"url": "http://oktavilla.se/"
+			},
 			"features": {
 				"cms": "Drupal 7",
 				"server": "Apache/2.4.7 + Varnish",
@@ -215,6 +251,10 @@
 			"party": "Moderaterna",
 			"icon": "moderaterna",
 			"url": "http://www.moderat.se",
+			"developer": {
+				"name": "",
+				"url": ""
+			},
 			"features": {
 				"cms": "Drupal 7",
 				"server": "Apache + Varnish",

@@ -119,6 +119,7 @@ var onLoadJSON = function(d) {
 				'<tr>' +
 					'<th data-sort="string" scope="col">Parti/Webbplats</th>' +
 					'<th data-sort="string">CMS</th>' +
+					'<th data-sort="string">Utvecklare</th>' +
 					'<th data-sort="string">Server</th>' +
 					'<th data-sort="string">SSL</th>' +
 					'<th data-sort="string">Cookies</th>' +
@@ -153,6 +154,7 @@ var onLoadJSON = function(d) {
 					'<i class="logga ' + party.icon + '"></i> ' +
 					'<a href="' + party.url + '">' + party.party + '</a></td>' +
 				'<td class="feature-cms">' + party.features.cms + '</td>' +
+				'<td class="feature-developer">' + ( party.developer.url ? "<a href='"+party.developer.url+"'>" : "" ) + party.developer.name + ( party.developer.url ? "</a>" : "" ) + '</td>' +
 				'<td class="feature-server">' + party.features.server + '</td>' +
 				'<td class="feature-https">' + str_https + '</td>' +
 				'<td class="feature-cookies">' + str_cookies + '</td>' +
