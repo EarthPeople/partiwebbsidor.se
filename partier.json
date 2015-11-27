@@ -109,9 +109,9 @@
 			]
 		},
 		{
-			"party": "Folkpartiet",
-			"icon": "folkpartiet",
-			"url": "http://www.folkpartiet.se",
+			"party": "Liberalerna",
+			"icon": "liberalerna",
+			"url": "https://www.liberalerna.se",
 			"developer": {
 				"name": "Stormfors",
 				"url": "http://www.stormfors.se/"
@@ -122,7 +122,7 @@
 				"cookies": "no",
 				"insights_mobile": 37,
 				"insights_desktop": 42,
-				"https": "no"
+				"https": "yes"
 			},
 			"plugins": [
 				"Advanced Custom Fields",
